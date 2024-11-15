@@ -7,7 +7,7 @@
 .inctr {
   text-align: center;
   display: inline-block;
-
+  padding: 10px;
 }
 
 /*
@@ -20,7 +20,7 @@ h1 {
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
-  color: #4ECCA3;
+  color: #6495ed;
 }
 
 p {
@@ -41,3 +41,68 @@ footer {
 
 }
 */
+/*
+body {
+  font-family: 'Sono', sans-serif;
+}
+*/
+
+h1 {
+  font-family: "Brush Script MT", Tahoma, sans-serif;
+  color:chocolate;
+  font-size: 48px;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  gap: 2rem;
+}
+
+.pricing-plan {
+  flex: 1;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #ba8759 ;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.plan-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.plan-price {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.plan-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.plan-features li {
+  margin-bottom: 20px;
+}
+
+.plan-button {
+  padding: 10px;
+  background-color: #ff6600;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+}
+
+@media (max-width: 1250px) {
+  .pricing-container {
+    flex-direction: column;
+    height: 100%;
+  }
+}
