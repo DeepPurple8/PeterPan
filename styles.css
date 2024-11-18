@@ -64,7 +64,7 @@ h1 {
   border: none;
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1000px) {
   .pricing-container {
     flex-direction: column;
     height: 100%;
