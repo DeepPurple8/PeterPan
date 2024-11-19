@@ -18,9 +18,14 @@
 
 h1 {
   font-family: "Brush Script MT", Tahoma, sans-serif;
-  color:chocolate;
+  color:yellow;
   font-size: 48px;
   margin: 5px;
+}
+
+img {
+  border-radius: 3%;
+  object-fit: cover;
 }
 
 .pricing-container {
