@@ -1,0 +1,126 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.inctr {
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+}
+
+.main {
+  background-image:url('Neverland 3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #6495ed;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+*/
+/*
+body {
+  font-family: 'Sono', sans-serif;
+}
+*/
+
+h1 {
+  font-family: "Brush Script MT", Tahoma, sans-serif;
+  color:yellow;
+  font-size: 48px;
+  margin: 5px;
+}
+
+img {
+  border-radius: 3%;
+  object-fit: cover;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  gap: 2rem;
+}
+
+.pricing-plan {
+  flex: 1;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #ba8759 ;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.plan-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.plan-price {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.plan-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.plan-features li {
+  margin-bottom: 20px;
+}
+
+.plan-button {
+  padding: 10px;
+  background-color: #ff6600;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+}
+
+@media screen and (max-width: 480px) {
+  div {
+    background-color: lightgreen;
+  }
+}
+
+@media (max-width: 1000px) {
+  .pricing-container {
+    flex-direction: column;
+    height: 100%;
+  }
+}
