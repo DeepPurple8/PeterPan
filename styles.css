@@ -32,19 +32,23 @@
   max-width: 100%;
   padding: 10px;
 }
-
+/*
 .main {
   background-image:url('Neverland 3.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+*/
 .ad {
   border: 30px solid #009fbd;
   width:600px;
   height:600px;
 }
-
+body {
+  font-size: 1.5rem;
+  letter-spacing: 0.06rem;
+}
+/*
 body {
   display: grid;
   grid-template-rows: auto auto 1fr auto;
@@ -58,6 +62,7 @@ body {
   font-style: var(--font-body-style);
   font-weight: var(--font-body-weight);
 }
+  */
 h1 {
   font-family: "Brush Script MT", Tahoma, sans-serif;
   color:yellow;
@@ -117,13 +122,19 @@ img {
   border: none;
 }
 /*
-@media screen and (max-width: 480px) {
-  div {
-    background-color: lightgreen;
+@media only screen and (max-width: 480px) {
+  
+  .inctr {
+    background-color: yellow;
+    width: 100%;
   }
 }
 */
-@media (max-width: 480px) {
+@media (max-width: 380px) {
+  section {
+    width: 100%;
+    align-content: center;
+  }
   div {
     width: 100%;
     align-content: center;
