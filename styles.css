@@ -44,6 +44,11 @@
   width:600px;
   height:600px;
 }
+.topline {
+  align-content: center;
+  width:576px;
+  height:226px;
+}
 body {
   font-size: 1.5rem;
   letter-spacing: 0.06rem;
@@ -130,7 +135,11 @@ img {
   }
 }
 */
-@media (max-width: 380px) {
+@media (max-width: 580px) {
+  body {
+    width: 100%;
+    align-content: center;
+  }
   section {
     width: 100%;
     align-content: center;
@@ -138,6 +147,18 @@ img {
   div {
     width: 100%;
     align-content: center;
+  }
+  img {
+    width: 100%;
+    align-content: center;
+  }
+  .ad {
+    width:100%;
+    height:auto;
+  }
+  .topline {
+    width:100%;
+    height:auto;
   }
 }
 @media (max-width: 900px) {
