@@ -169,13 +169,32 @@ img {
   }
 }
 
+@media (max-width: 480px) {
+  .pricing-container {
+    grid-template-columns: auto;
+    height: 100%;
+  }
+}
+@media (max-width: 600px) and (min-width: 480px) {
+  .pricing-container {
+    grid-template-columns: auto auto;
+    height: 100%;
+  }
+}
+@media (max-width: 900px) and (min-width: 600px) {
+  .pricing-container {
+    grid-template-columns: auto auto auto;
+    height: 100%;
+  }
+}
+/*
 @media (max-width: 1080px) {
   .pricing-container {
     flex-direction: column;
     height: 100%;
   }
-
 }
+*/
 
 .ant {
   width:100%;
