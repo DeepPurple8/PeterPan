@@ -69,7 +69,7 @@ body {
 }
   */
 h1 {
-  font-family: "Brush Script MT", Tahoma, sans-serif;
+  font-family: cooper, "Brush Script MT", Tahoma, sans-serif;
   color:yellow;
   font-size: 48px;
   margin: 5px;
@@ -81,13 +81,39 @@ img {
 }
 
 .pricing-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-auto-rows: 270px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/*
+.pricing-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 50vh;
   gap: 1rem;
 }
-/*
+
+
+.pricing-container {
+  display: grid;
+  grid-template-columns: repeat(4, 270px); 1fr 2fr; 280px 280px; auto 400px minmax(,)
+  grid-template-rows: 1fr 1fr;
+  grid-template: 100px 200px / 400px 800px; r/c auto=100% for c, fit for row
+                                            minmax(80px, 360px)
+  grid-auto-rows: 270px;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  gap: 10px;
+  width: 1112px; 80%;
+}
+
 .pricing-plan {
   flex: 1;
   max-width: 400px;
@@ -195,7 +221,6 @@ img {
   }
 }
 */
-
 .ant {
   width:100%;
   height:auto;
